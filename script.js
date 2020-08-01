@@ -6,6 +6,14 @@
 // Ctrl +X_______________________________|| Удаление строки
 // Shift + Alt___________________________|| Выделение столбца
 // Shift + Alt + F_______________________|| Форматирование кода
+//**************************************Git****************************
+// git init 
+// git status
+// git add * 
+// git commit -m "comment"
+// git remote add origin https://github.com/Samvel199/cheshHorse.git
+// git push -u origin master
+// git pull origin master
 let board = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
 function possibleHorseStep(x, y) {
     let deltaX
